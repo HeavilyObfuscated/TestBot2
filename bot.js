@@ -16,7 +16,7 @@ function respond() {
     this.res.writeHead(200);
     this.res.end();
   }
-}  
+}
 
 function postMessage() {
   var botResponse, options, body, botReq;
@@ -31,7 +31,7 @@ function postMessage() {
 
   body = {
     "bot_id" : botID,
-    "text" : ("Is anybody else hard rn?")
+    "text" : ("Shut up David")
   };
 
   console.log('sending ' + botResponse + ' to ' + botID);
